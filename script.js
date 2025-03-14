@@ -22,6 +22,7 @@ function Strength(password) {
   return i;
 }
 
+
 let container = document.querySelector(".container");
 document.addEventListener("keyup", function (e) {
   let password = document.querySelector("#YourPassword").value;
